@@ -52,23 +52,23 @@ def main(args: argparse.Namespace) -> None:
                 else:
                     if gold_p == hypo_p:
                         not_rulematch_predmatch += 1
-                        print("Line ", total_records)
-                        print("The CG messed up")
-                        print("Word is", ortho_str)
-                        print("Pronunciation is", gold_p_str)
-                        print("Possible rewrites include:")
-                        print(rewrite.rewrites(ortho, cg_fst, input_token_type="utf8", output_token_type="utf8"))
-                        print("=====")
-                        print()
+                        # print("Line ", total_records)
+                        # print("The CG messed up")
+                        # print("Word is", ortho_str)
+                        # print("Pronunciation is", gold_p_str)
+                        # print("Possible rewrites include:")
+                        # print(rewrite.rewrites(ortho, cg_fst, input_token_type="utf8", output_token_type="utf8"))
+                        # print("=====")
+                        # print()
                     else:
                         not_rulematch_pred_notmatch += 1
             except pynini.lib.rewrite.Error as e:
                 # print("Something's not right...")
+                print("Line ", total_records)
                 print(e)
                 print("Word is", ortho_str)
                 print("Predicted pronunciation is", hypo_p_str)
                 print("Actual pronunciation is", gold_p_str)
-                print("Line ", total_records)
                 print()
                 print("=====")
                 print()
