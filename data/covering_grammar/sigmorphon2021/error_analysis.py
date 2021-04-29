@@ -7,7 +7,7 @@ Two input files are required:
     zero or more graphemes, and the right contains zero or more phones it can
     correspond to.
 2.  Test output: a three-column TSV file in which the columns are the graphemic
-    form, the hypothesized pronunciation, and the gold pronunciation.
+    form, the gold pronunciation, and the hypothesized pronunciation.
 
 Example:
 
@@ -35,9 +35,10 @@ def main(args: argparse.Namespace) -> None:
         with open(args.test_path, "r") as source:
             for line in source:
                 total_records += 1
-                ortho, hypo_p, gold_p = line.rstrip().split("\t", 2)
+                ortho, gold_p, hypo_p = line.rstrip().split("\t", 2)
                 hypo_p = hypo_p.replace(" ", "")
                 gold_p = gold_p.replace(" ", "")
+                print(ortho, gold_p, hypo_p)
                 if rewrite.matches(ortho, hypo_p, cg_fst):
                     if gold_p == hypo_p:
                         rulematch_predmatch += 1
