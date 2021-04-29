@@ -1,0 +1,4 @@
+gold: ../data/medium/jpn_hira_test.tsv
+systems: ['output/medium/jpn_hira/10/test_beam4.predictions', 'output/medium/jpn_hira/1/test_beam4.predictions', 'output/medium/jpn_hira/2/test_beam4.predictions', 'output/medium/jpn_hira/3/test_beam4.predictions', 'output/medium/jpn_hira/4/test_beam4.predictions', 'output/medium/jpn_hira/5/test_beam4.predictions', 'output/medium/jpn_hira/6/test_beam4.predictions', 'output/medium/jpn_hira/7/test_beam4.predictions', 'output/medium/jpn_hira/8/test_beam4.predictions', 'output/medium/jpn_hira/9/test_beam4.predictions']
+output: output/medium/jpn_hira/ensemble
+test accuracy: 0.9480

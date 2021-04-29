@@ -1,0 +1,4 @@
+gold: ../data/low/mlt_latn_dev.tsv
+systems: ['output/low/mlt_latn/10/dev_beam4.predictions', 'output/low/mlt_latn/1/dev_beam4.predictions', 'output/low/mlt_latn/2/dev_beam4.predictions', 'output/low/mlt_latn/3/dev_beam4.predictions', 'output/low/mlt_latn/4/dev_beam4.predictions', 'output/low/mlt_latn/5/dev_beam4.predictions', 'output/low/mlt_latn/6/dev_beam4.predictions', 'output/low/mlt_latn/7/dev_beam4.predictions', 'output/low/mlt_latn/8/dev_beam4.predictions', 'output/low/mlt_latn/9/dev_beam4.predictions']
+output: output/low/mlt_latn/ensemble
+dev accuracy: 0.8000

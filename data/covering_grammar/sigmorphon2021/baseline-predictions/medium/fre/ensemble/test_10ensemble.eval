@@ -1,0 +1,4 @@
+gold: ../data/medium/fre_test.tsv
+systems: ['output/medium/fre/10/test_beam4.predictions', 'output/medium/fre/1/test_beam4.predictions', 'output/medium/fre/2/test_beam4.predictions', 'output/medium/fre/3/test_beam4.predictions', 'output/medium/fre/4/test_beam4.predictions', 'output/medium/fre/5/test_beam4.predictions', 'output/medium/fre/6/test_beam4.predictions', 'output/medium/fre/7/test_beam4.predictions', 'output/medium/fre/8/test_beam4.predictions', 'output/medium/fre/9/test_beam4.predictions']
+output: output/medium/fre/ensemble
+test accuracy: 0.9150

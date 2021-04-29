@@ -1,0 +1,4 @@
+gold: ../data/low/ady_dev.tsv
+systems: ['output/low/ady/10/dev_beam4.predictions', 'output/low/ady/1/dev_beam4.predictions', 'output/low/ady/2/dev_beam4.predictions', 'output/low/ady/3/dev_beam4.predictions', 'output/low/ady/4/dev_beam4.predictions', 'output/low/ady/5/dev_beam4.predictions', 'output/low/ady/6/dev_beam4.predictions', 'output/low/ady/7/dev_beam4.predictions', 'output/low/ady/8/dev_beam4.predictions', 'output/low/ady/9/dev_beam4.predictions']
+output: output/low/ady/ensemble
+dev accuracy: 0.7800

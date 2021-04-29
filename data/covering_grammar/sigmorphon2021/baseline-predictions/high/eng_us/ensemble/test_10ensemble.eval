@@ -1,0 +1,4 @@
+gold: ../data/high/eng_us_test.tsv
+systems: ['output/high/eng_us/10/test_beam4.predictions', 'output/high/eng_us/1/test_beam4.predictions', 'output/high/eng_us/2/test_beam4.predictions', 'output/high/eng_us/3/test_beam4.predictions', 'output/high/eng_us/4/test_beam4.predictions', 'output/high/eng_us/5/test_beam4.predictions', 'output/high/eng_us/6/test_beam4.predictions', 'output/high/eng_us/7/test_beam4.predictions', 'output/high/eng_us/8/test_beam4.predictions', 'output/high/eng_us/9/test_beam4.predictions']
+output: output/high/eng_us/ensemble
+test accuracy: 0.5801

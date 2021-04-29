@@ -1,0 +1,4 @@
+gold: ../data/low/khm_dev.tsv
+systems: ['output/low/khm/10/dev_beam4.predictions', 'output/low/khm/1/dev_beam4.predictions', 'output/low/khm/2/dev_beam4.predictions', 'output/low/khm/3/dev_beam4.predictions', 'output/low/khm/4/dev_beam4.predictions', 'output/low/khm/5/dev_beam4.predictions', 'output/low/khm/6/dev_beam4.predictions', 'output/low/khm/7/dev_beam4.predictions', 'output/low/khm/8/dev_beam4.predictions', 'output/low/khm/9/dev_beam4.predictions']
+output: output/low/khm/ensemble
+dev accuracy: 0.6600

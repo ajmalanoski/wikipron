@@ -1,0 +1,4 @@
+gold: ../data/medium/arm_e_test.tsv
+systems: ['output/medium/arm_e/10/test_beam4.predictions', 'output/medium/arm_e/1/test_beam4.predictions', 'output/medium/arm_e/2/test_beam4.predictions', 'output/medium/arm_e/3/test_beam4.predictions', 'output/medium/arm_e/4/test_beam4.predictions', 'output/medium/arm_e/5/test_beam4.predictions', 'output/medium/arm_e/6/test_beam4.predictions', 'output/medium/arm_e/7/test_beam4.predictions', 'output/medium/arm_e/8/test_beam4.predictions', 'output/medium/arm_e/9/test_beam4.predictions']
+output: output/medium/arm_e/ensemble
+test accuracy: 0.9300

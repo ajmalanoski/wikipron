@@ -1,0 +1,4 @@
+gold: ../data/low/ice_dev.tsv
+systems: ['output/low/ice/10/dev_beam4.predictions', 'output/low/ice/1/dev_beam4.predictions', 'output/low/ice/2/dev_beam4.predictions', 'output/low/ice/3/dev_beam4.predictions', 'output/low/ice/4/dev_beam4.predictions', 'output/low/ice/5/dev_beam4.predictions', 'output/low/ice/6/dev_beam4.predictions', 'output/low/ice/7/dev_beam4.predictions', 'output/low/ice/8/dev_beam4.predictions', 'output/low/ice/9/dev_beam4.predictions']
+output: output/low/ice/ensemble
+dev accuracy: 0.8900

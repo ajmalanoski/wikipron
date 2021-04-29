@@ -1,0 +1,4 @@
+gold: ../data/medium/fre_dev.tsv
+systems: ['output/medium/fre/10/dev_beam4.predictions', 'output/medium/fre/1/dev_beam4.predictions', 'output/medium/fre/2/dev_beam4.predictions', 'output/medium/fre/3/dev_beam4.predictions', 'output/medium/fre/4/dev_beam4.predictions', 'output/medium/fre/5/dev_beam4.predictions', 'output/medium/fre/6/dev_beam4.predictions', 'output/medium/fre/7/dev_beam4.predictions', 'output/medium/fre/8/dev_beam4.predictions', 'output/medium/fre/9/dev_beam4.predictions']
+output: output/medium/fre/ensemble
+dev accuracy: 0.9220

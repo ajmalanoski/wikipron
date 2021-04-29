@@ -1,0 +1,4 @@
+gold: ../data/low/khm_test.tsv
+systems: ['output/low/khm/10/test_beam4.predictions', 'output/low/khm/1/test_beam4.predictions', 'output/low/khm/2/test_beam4.predictions', 'output/low/khm/3/test_beam4.predictions', 'output/low/khm/4/test_beam4.predictions', 'output/low/khm/5/test_beam4.predictions', 'output/low/khm/6/test_beam4.predictions', 'output/low/khm/7/test_beam4.predictions', 'output/low/khm/8/test_beam4.predictions', 'output/low/khm/9/test_beam4.predictions']
+output: output/low/khm/ensemble
+test accuracy: 0.6600

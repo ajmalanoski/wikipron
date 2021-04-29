@@ -1,0 +1,4 @@
+gold: ../data/medium/hbs_latn_dev.tsv
+systems: ['output/medium/hbs_latn/10/dev_beam4.predictions', 'output/medium/hbs_latn/1/dev_beam4.predictions', 'output/medium/hbs_latn/2/dev_beam4.predictions', 'output/medium/hbs_latn/3/dev_beam4.predictions', 'output/medium/hbs_latn/4/dev_beam4.predictions', 'output/medium/hbs_latn/5/dev_beam4.predictions', 'output/medium/hbs_latn/6/dev_beam4.predictions', 'output/medium/hbs_latn/7/dev_beam4.predictions', 'output/medium/hbs_latn/8/dev_beam4.predictions', 'output/medium/hbs_latn/9/dev_beam4.predictions']
+output: output/medium/hbs_latn/ensemble
+dev accuracy: 0.6530

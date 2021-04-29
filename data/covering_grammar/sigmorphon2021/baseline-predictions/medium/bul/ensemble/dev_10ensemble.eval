@@ -1,0 +1,4 @@
+gold: ../data/medium/bul_dev.tsv
+systems: ['output/medium/bul/10/dev_beam4.predictions', 'output/medium/bul/1/dev_beam4.predictions', 'output/medium/bul/2/dev_beam4.predictions', 'output/medium/bul/3/dev_beam4.predictions', 'output/medium/bul/4/dev_beam4.predictions', 'output/medium/bul/5/dev_beam4.predictions', 'output/medium/bul/6/dev_beam4.predictions', 'output/medium/bul/7/dev_beam4.predictions', 'output/medium/bul/8/dev_beam4.predictions', 'output/medium/bul/9/dev_beam4.predictions']
+output: output/medium/bul/ensemble
+dev accuracy: 0.9170

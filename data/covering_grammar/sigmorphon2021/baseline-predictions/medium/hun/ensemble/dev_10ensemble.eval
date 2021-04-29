@@ -1,0 +1,4 @@
+gold: ../data/medium/hun_dev.tsv
+systems: ['output/medium/hun/10/dev_beam4.predictions', 'output/medium/hun/1/dev_beam4.predictions', 'output/medium/hun/2/dev_beam4.predictions', 'output/medium/hun/3/dev_beam4.predictions', 'output/medium/hun/4/dev_beam4.predictions', 'output/medium/hun/5/dev_beam4.predictions', 'output/medium/hun/6/dev_beam4.predictions', 'output/medium/hun/7/dev_beam4.predictions', 'output/medium/hun/8/dev_beam4.predictions', 'output/medium/hun/9/dev_beam4.predictions']
+output: output/medium/hun/ensemble
+dev accuracy: 0.9850

@@ -1,0 +1,4 @@
+gold: ../data/medium/vie_hanoi_test.tsv
+systems: ['output/medium/vie_hanoi/10/test_beam4.predictions', 'output/medium/vie_hanoi/1/test_beam4.predictions', 'output/medium/vie_hanoi/2/test_beam4.predictions', 'output/medium/vie_hanoi/3/test_beam4.predictions', 'output/medium/vie_hanoi/4/test_beam4.predictions', 'output/medium/vie_hanoi/5/test_beam4.predictions', 'output/medium/vie_hanoi/6/test_beam4.predictions', 'output/medium/vie_hanoi/7/test_beam4.predictions', 'output/medium/vie_hanoi/8/test_beam4.predictions', 'output/medium/vie_hanoi/9/test_beam4.predictions']
+output: output/medium/vie_hanoi/ensemble
+test accuracy: 0.9750

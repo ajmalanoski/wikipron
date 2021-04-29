@@ -1,0 +1,4 @@
+gold: ../data/medium/geo_dev.tsv
+systems: ['output/medium/geo/10/dev_beam4.predictions', 'output/medium/geo/1/dev_beam4.predictions', 'output/medium/geo/2/dev_beam4.predictions', 'output/medium/geo/3/dev_beam4.predictions', 'output/medium/geo/4/dev_beam4.predictions', 'output/medium/geo/5/dev_beam4.predictions', 'output/medium/geo/6/dev_beam4.predictions', 'output/medium/geo/7/dev_beam4.predictions', 'output/medium/geo/8/dev_beam4.predictions', 'output/medium/geo/9/dev_beam4.predictions']
+output: output/medium/geo/ensemble
+dev accuracy: 1.0000

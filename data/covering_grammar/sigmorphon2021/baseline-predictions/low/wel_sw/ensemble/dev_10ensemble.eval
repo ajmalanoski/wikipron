@@ -1,0 +1,4 @@
+gold: ../data/low/wel_sw_dev.tsv
+systems: ['output/low/wel_sw/10/dev_beam4.predictions', 'output/low/wel_sw/1/dev_beam4.predictions', 'output/low/wel_sw/2/dev_beam4.predictions', 'output/low/wel_sw/3/dev_beam4.predictions', 'output/low/wel_sw/4/dev_beam4.predictions', 'output/low/wel_sw/5/dev_beam4.predictions', 'output/low/wel_sw/6/dev_beam4.predictions', 'output/low/wel_sw/7/dev_beam4.predictions', 'output/low/wel_sw/8/dev_beam4.predictions', 'output/low/wel_sw/9/dev_beam4.predictions']
+output: output/low/wel_sw/ensemble
+dev accuracy: 0.8300

@@ -1,0 +1,4 @@
+gold: ../data/medium/hbs_latn_test.tsv
+systems: ['output/medium/hbs_latn/10/test_beam4.predictions', 'output/medium/hbs_latn/1/test_beam4.predictions', 'output/medium/hbs_latn/2/test_beam4.predictions', 'output/medium/hbs_latn/3/test_beam4.predictions', 'output/medium/hbs_latn/4/test_beam4.predictions', 'output/medium/hbs_latn/5/test_beam4.predictions', 'output/medium/hbs_latn/6/test_beam4.predictions', 'output/medium/hbs_latn/7/test_beam4.predictions', 'output/medium/hbs_latn/8/test_beam4.predictions', 'output/medium/hbs_latn/9/test_beam4.predictions']
+output: output/medium/hbs_latn/ensemble
+test accuracy: 0.6790

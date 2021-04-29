@@ -1,0 +1,4 @@
+gold: ../data/medium/hun_test.tsv
+systems: ['output/medium/hun/10/test_beam4.predictions', 'output/medium/hun/1/test_beam4.predictions', 'output/medium/hun/2/test_beam4.predictions', 'output/medium/hun/3/test_beam4.predictions', 'output/medium/hun/4/test_beam4.predictions', 'output/medium/hun/5/test_beam4.predictions', 'output/medium/hun/6/test_beam4.predictions', 'output/medium/hun/7/test_beam4.predictions', 'output/medium/hun/8/test_beam4.predictions', 'output/medium/hun/9/test_beam4.predictions']
+output: output/medium/hun/ensemble
+test accuracy: 0.9820

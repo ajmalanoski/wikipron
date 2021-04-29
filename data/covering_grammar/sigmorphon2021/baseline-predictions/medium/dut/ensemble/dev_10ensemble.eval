@@ -1,0 +1,4 @@
+gold: ../data/medium/dut_dev.tsv
+systems: ['output/medium/dut/10/dev_beam4.predictions', 'output/medium/dut/1/dev_beam4.predictions', 'output/medium/dut/2/dev_beam4.predictions', 'output/medium/dut/3/dev_beam4.predictions', 'output/medium/dut/4/dev_beam4.predictions', 'output/medium/dut/5/dev_beam4.predictions', 'output/medium/dut/6/dev_beam4.predictions', 'output/medium/dut/7/dev_beam4.predictions', 'output/medium/dut/8/dev_beam4.predictions', 'output/medium/dut/9/dev_beam4.predictions']
+output: output/medium/dut/ensemble
+dev accuracy: 0.8920

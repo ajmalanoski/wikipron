@@ -1,0 +1,4 @@
+gold: ../data/high/eng_us_dev.tsv
+systems: ['output/high/eng_us/10/dev_beam4.predictions', 'output/high/eng_us/1/dev_beam4.predictions', 'output/high/eng_us/2/dev_beam4.predictions', 'output/high/eng_us/3/dev_beam4.predictions', 'output/high/eng_us/4/dev_beam4.predictions', 'output/high/eng_us/5/dev_beam4.predictions', 'output/high/eng_us/6/dev_beam4.predictions', 'output/high/eng_us/7/dev_beam4.predictions', 'output/high/eng_us/8/dev_beam4.predictions', 'output/high/eng_us/9/dev_beam4.predictions']
+output: output/high/eng_us/ensemble
+dev accuracy: 0.5485

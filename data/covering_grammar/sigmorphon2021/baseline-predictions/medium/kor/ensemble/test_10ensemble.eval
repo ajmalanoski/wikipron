@@ -1,0 +1,4 @@
+gold: ../data/medium/kor_test.tsv
+systems: ['output/medium/kor/10/test_beam4.predictions', 'output/medium/kor/1/test_beam4.predictions', 'output/medium/kor/2/test_beam4.predictions', 'output/medium/kor/3/test_beam4.predictions', 'output/medium/kor/4/test_beam4.predictions', 'output/medium/kor/5/test_beam4.predictions', 'output/medium/kor/6/test_beam4.predictions', 'output/medium/kor/7/test_beam4.predictions', 'output/medium/kor/8/test_beam4.predictions', 'output/medium/kor/9/test_beam4.predictions']
+output: output/medium/kor/ensemble
+test accuracy: 0.8370

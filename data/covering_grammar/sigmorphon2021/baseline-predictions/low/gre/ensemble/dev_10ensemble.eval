@@ -1,0 +1,4 @@
+gold: ../data/low/gre_dev.tsv
+systems: ['output/low/gre/10/dev_beam4.predictions', 'output/low/gre/1/dev_beam4.predictions', 'output/low/gre/2/dev_beam4.predictions', 'output/low/gre/3/dev_beam4.predictions', 'output/low/gre/4/dev_beam4.predictions', 'output/low/gre/5/dev_beam4.predictions', 'output/low/gre/6/dev_beam4.predictions', 'output/low/gre/7/dev_beam4.predictions', 'output/low/gre/8/dev_beam4.predictions', 'output/low/gre/9/dev_beam4.predictions']
+output: output/low/gre/ensemble
+dev accuracy: 0.9500

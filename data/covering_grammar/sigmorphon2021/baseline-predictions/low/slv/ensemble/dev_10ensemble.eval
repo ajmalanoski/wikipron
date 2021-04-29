@@ -1,0 +1,4 @@
+gold: ../data/low/slv_dev.tsv
+systems: ['output/low/slv/10/dev_beam4.predictions', 'output/low/slv/1/dev_beam4.predictions', 'output/low/slv/2/dev_beam4.predictions', 'output/low/slv/3/dev_beam4.predictions', 'output/low/slv/4/dev_beam4.predictions', 'output/low/slv/5/dev_beam4.predictions', 'output/low/slv/6/dev_beam4.predictions', 'output/low/slv/7/dev_beam4.predictions', 'output/low/slv/8/dev_beam4.predictions', 'output/low/slv/9/dev_beam4.predictions']
+output: output/low/slv/ensemble
+dev accuracy: 0.5700

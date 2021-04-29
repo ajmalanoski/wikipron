@@ -1,0 +1,21 @@
+dynet_seed: 8
+dynet_mem: 1000
+dynet_autobatch: None
+train: ../data/medium/hbs_latn_train.tsv
+dev: ../data/medium/hbs_latn_dev.tsv
+test: ../data/medium/hbs_latn_test.tsv
+output: output/medium/hbs_latn/8
+nfd: True
+char_dim: 100
+action_dim: 100
+enc_hidden_dim: 200
+dec_hidden_dim: 200
+enc_layers: 1
+dec_layers: 1
+beam_width: 4
+k: 1
+patience: 12
+epochs: 60
+batch_size: 5
+sed_em_iterations: 10
+test accuracy: 0.6190

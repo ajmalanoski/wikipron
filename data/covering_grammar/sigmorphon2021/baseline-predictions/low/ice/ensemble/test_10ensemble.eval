@@ -1,0 +1,4 @@
+gold: ../data/low/ice_test.tsv
+systems: ['output/low/ice/10/test_beam4.predictions', 'output/low/ice/1/test_beam4.predictions', 'output/low/ice/2/test_beam4.predictions', 'output/low/ice/3/test_beam4.predictions', 'output/low/ice/4/test_beam4.predictions', 'output/low/ice/5/test_beam4.predictions', 'output/low/ice/6/test_beam4.predictions', 'output/low/ice/7/test_beam4.predictions', 'output/low/ice/8/test_beam4.predictions', 'output/low/ice/9/test_beam4.predictions']
+output: output/low/ice/ensemble
+test accuracy: 0.8800

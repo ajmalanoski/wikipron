@@ -1,0 +1,4 @@
+gold: ../data/low/rum_test.tsv
+systems: ['output/low/rum/10/test_beam4.predictions', 'output/low/rum/1/test_beam4.predictions', 'output/low/rum/2/test_beam4.predictions', 'output/low/rum/3/test_beam4.predictions', 'output/low/rum/4/test_beam4.predictions', 'output/low/rum/5/test_beam4.predictions', 'output/low/rum/6/test_beam4.predictions', 'output/low/rum/7/test_beam4.predictions', 'output/low/rum/8/test_beam4.predictions', 'output/low/rum/9/test_beam4.predictions']
+output: output/low/rum/ensemble
+test accuracy: 0.9000
