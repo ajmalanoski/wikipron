@@ -1,0 +1,46 @@
+Line  79
+Composition failure
+Word is うぃゅ
+Predicted pronunciation is ɯ̟ᵝɨᵝ
+Actual pronunciation is ɰᵝjɯ̟ᵝ
+
+=====
+
+Line  221
+Composition failure
+Word is き゚ょ
+Predicted pronunciation is ɡʲo̞
+Actual pronunciation is ŋʲo̞
+
+=====
+
+Line  252
+Composition failure
+Word is ぐぉ
+Predicted pronunciation is ɡɰᵝ
+Actual pronunciation is ɡɰᵝo̞
+
+=====
+
+Line  547
+Composition failure
+Word is だぉ
+Predicted pronunciation is da̠o̞
+Actual pronunciation is da̠o̞
+
+=====
+
+Line  999
+Composition failure
+Word is ゐゃ
+Predicted pronunciation is ɰᵝa̠
+Actual pronunciation is ɰᵝja̠
+
+=====
+
++----------------+----------+--------------+
+|                | CG match | CG non-match |
++----------------+----------+--------------+
+|   Pron match   |  93.50   |     1.20     |
+| Pron non-match |   4.40   |     0.40     |
++----------------+----------+--------------+
